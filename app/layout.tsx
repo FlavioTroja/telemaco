@@ -6,7 +6,7 @@ import { Toaster } from 'sonner';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chat.vercel.ai'),
+  metadataBase: new URL('https://telemaco.care'),
   title: 'Telemaco',
   description: 'Piattaforma AI per analizzare e geolocalizzare dati sui tumori, individuandone cause e abitudini comuni, per prevenire e diagnosticare.',
 };
