@@ -7,9 +7,9 @@ import { useWindowSize } from 'usehooks-ts';
 import { ModelSelector } from '@/components/model-selector';
 import { SidebarToggle } from '@/components/sidebar-toggle';
 import { Button } from '@/components/ui/button';
-import { PlusIcon, VercelIcon } from './icons';
-import { useSidebar } from './ui/sidebar';
 import { memo } from 'react';
+import { DonateIcon, PlusIcon } from './icons';
+import { useSidebar } from './ui/sidebar';
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip';
 import { type VisibilityType, VisibilitySelector } from './visibility-selector';
 
@@ -72,11 +72,11 @@ function PureChatHeader({
         asChild
       >
         <Link
-          href={`https://vercel.com/new/clone?repository-url=https://github.com/vercel/ai-chatbot&env=AUTH_SECRET&envDescription=Learn more about how to get the API Keys for the application&envLink=https://github.com/vercel/ai-chatbot/blob/main/.env.example&demo-title=AI Chatbot&demo-description=An Open-Source AI Chatbot Template Built With Next.js and the AI SDK by Vercel.&demo-url=https://chat.vercel.ai&products=[{"type":"integration","protocol":"ai","productSlug":"grok","integrationSlug":"xai"},{"type":"integration","protocol":"ai","productSlug":"api-key","integrationSlug":"groq"},{"type":"integration","protocol":"storage","productSlug":"neon","integrationSlug":"neon"},{"type":"blob"}]`}
+          href="https://www.kickstarter.com/projects/flaviotroia/1235066133?ref=6qfdht&token=8d1a001a"
           target="_noblank"
         >
-          <VercelIcon size={16} />
-          Deploy with Vercel
+          <DonateIcon size={16} />
+          Fai una donazione
         </Link>
       </Button>
     </header>
